@@ -23,7 +23,7 @@ release: README.md zip
 	hub release create $(VERSION) -m "$(VERSION)" -a release/$(APP)_$(VERSION)_osx_x86_64.tar.gz -a release/$(APP)_$(VERSION)_osx_arm64.tar.gz -a release/$(APP)_$(VERSION)_windows_x86_64.zip -a release/$(APP)_$(VERSION)_linux_x86_64.tar.gz -a release/$(APP)_$(VERSION)_linux_arm64.tar.gz
 
 README.md:
-	VERSION="$(VERSION)" APP="$(APP)" USAGE="$$(go get github.com/kitos9112/$(APP); $(APP) -h 2>&1)" <README.template.md envsubst > README.md
+	VERSION="$(VERSION)" APP="$(APP)" USAGE="$$(go get github.com/jose9781/$(APP); $(APP) -h 2>&1)" <README.template.md envsubst > README.md
 
 zip: release/$(APP)_$(VERSION)_osx_x86_64.tar.gz release/$(APP)_$(VERSION)_windows_x86_64.zip release/$(APP)_$(VERSION)_linux_x86_64.tar.gz release/$(APP)_$(VERSION)_linux_arm64.tar.gz release/$(APP)_$(VERSION)_osx_arm64.tar.gz
 

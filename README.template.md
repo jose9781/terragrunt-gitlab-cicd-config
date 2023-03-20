@@ -37,24 +37,24 @@ Use "terragrunt-gitlab-cicd-config [command] --help" for more information about 
 Using go get:
 
 ```bash
-go get -u github.com/kitos9112/${APP}
+go get -u github.com/jose9781/${APP}
 ```
 
-Or [download the binary](https://github.com/kitos9112/${APP}/releases/latest) from the releases page.
+Or [download the binary](https://github.com/jose9781/${APP}/releases/latest) from the releases page.
 
 ```bash
 # Linux x86_64
-curl -L https://github.com/kitos9112/${APP}/releases/download/${VERSION}/${APP}_${VERSION}_linux_x86_64.tar.gz | tar xz
+curl -L https://github.com/jose9781/${APP}/releases/download/${VERSION}/${APP}_${VERSION}_linux_x86_64.tar.gz | tar xz
 # Linux arm64
-curl -L https://github.com/kitos9112/${APP}/releases/download/${VERSION}/${APP}_${VERSION}_linux_arm64.tar.gz | tar xz
+curl -L https://github.com/jose9781/${APP}/releases/download/${VERSION}/${APP}_${VERSION}_linux_arm64.tar.gz | tar xz
 
 # OS X x86_64
-curl -L https://github.com/kitos9112/${APP}/releases/download/${VERSION}/${APP}_${VERSION}_osx_x86_64.tar.gz | tar xz
+curl -L https://github.com/jose9781/${APP}/releases/download/${VERSION}/${APP}_${VERSION}_osx_x86_64.tar.gz | tar xz
 # OS X arm64
-curl -L https://github.com/kitos9112/${APP}/releases/download/${VERSION}/${APP}_${VERSION}_osx_arm64.tar.gz | tar xz
+curl -L https://github.com/jose9781/${APP}/releases/download/${VERSION}/${APP}_${VERSION}_osx_arm64.tar.gz | tar xz
 
 # Windows x86_64
-curl -LO https://github.com/kitos9112/${APP}/releases/download/${VERSION}/${APP}_${VERSION}_windows_x86_64.zip
+curl -LO https://github.com/jose9781/${APP}/releases/download/${VERSION}/${APP}_${VERSION}_windows_x86_64.zip
 unzip ${APP}_${VERSION}_windows_x86_64.zip
 ```
 

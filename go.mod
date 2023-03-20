@@ -1,4 +1,4 @@
-module github.com/kitos9112/terragrunt-gitlab-cicd-config
+module github.com/jose9781/terragrunt-gitlab-cicd-config
 
 go 1.19
 
